@@ -64,7 +64,7 @@ describe('AppService', () => {
     const people = ['vivek', 'mohit', 'pankaj'];
     people.forEach(person => service.addUser(person));
 
-    service.searchPerson('M', ['vivek']).subscribe(transactions => {
+    service.searchPerson('m', ['vivek']).subscribe(transactions => {
       expect(transactions.length).toEqual(1);
       expect(transactions[0]).toEqual('mohit');
     });

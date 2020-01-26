@@ -74,6 +74,9 @@ describe('HomeComponent', () => {
             },
             getSettleUpList: () => {
               return [{}]
+            },
+            searchPerson:(key:string, exclude:string[]) => {
+              return of([]);
             }
           }
         }
