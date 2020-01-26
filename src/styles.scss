@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~ngx-toastr/toastr';
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+* {
+    font-family: ubuntu;
+    box-sizing: border-box;
+    font-style: italic;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: aliceblue;
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+    font-style: italic;
+    text-decoration: underline;
+    color: indianred;
+}
+html, body { height: 100%;overflow-y: auto; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-form-field-infix, .mat-form-field {
+    color: black;
+}
+
+.mat-form-field-appearance-legacy .mat-form-field-label {
+    color: black;
+}
+
+.mat-select-value {
+    color: #000 !important;
+}
+
+.mat-fab.mat-accent[disabled] {
+    background-color: lightseagreen;
+}
+
+.mat-form-field-appearance-legacy .mat-form-field-underline {
+    background-color: #b1abab;
+}
+
+

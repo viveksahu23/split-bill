@@ -1,0 +1,6 @@
+<app-header></app-header>
+<section class="no-scrollbar">  
+    <div *ngFor="let expense of expenses">
+        <span>{{expense.description | uppercase}} - {{expense.amount | currency: 'EUR'}} paid by {{expense.paidBy}} and split with {{expense.splitAmong}}</span>
+    </div>
+</section>
