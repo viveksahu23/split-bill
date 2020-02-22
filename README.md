@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Live Demo
 
-Live demo can be accessed on - lovely-nest.surge.sh
+Live demo can be accessed on - `lovely-nest.surge.sh`
 
 ## Development server
 
